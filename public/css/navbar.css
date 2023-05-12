@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    line-height: 1.5;
+}
+header{
+    padding: 30px 20px;
+    background: #FFFFFF;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    transition: all linear 0.5s;
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #0E094D;
+    font-weight: 500;
+}
