@@ -27,4 +27,13 @@ Route::get('/civitas/add', function () {
 Route::get('/navbar', function(){
     return view('layout.navbar');
 });
+Route::get('/login', function(){
+    return view('layout.login');
+});
+Route::get('/register', function(){
+    return view('layout.register');
+});
+Route::get('/reset_password', function(){
+    return view('layout.reset_password');
+});
 Route::resource('civitas',CivitasController::class);

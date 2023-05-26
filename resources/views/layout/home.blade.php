@@ -55,7 +55,7 @@
     <p class="aw">© DEPARTEMEN TEKNIK ELEKTRO DAN INFORMATIKA SEKOLAH VOKASI UGM</p>
     <img class="ax" src="images/Lambang UGM-putih (1).png">
     <img class="az" src="images/Logo Horizontal 2.png">
-    <a href="#" class="ba">Masuk</a>
-    <a href="#" class="bb">Daftar Akun</a>
+    <a href="{{ url('login') }}" class="ba">Masuk</a>
+    <a href="{{ url('register') }}" class="bb">Daftar Akun</a>
 
 @endsection
